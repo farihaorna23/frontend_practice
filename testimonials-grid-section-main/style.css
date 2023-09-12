@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  /* width: 100vw; */
+  /* padding: 4%; */
+  background-color: aliceblue;
+}
+
+.container {
+  padding: 5% 3%;
+}
+
+.daniel-pic {
+  border-radius: 50%;
+  border: 3px solid #a380db;
+}
+
+.quotation {
+  margin-left: 10%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.info {
+  margin-left: 3%;
+}
+
+.white-text-status {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.black-text-status {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.white-text-name {
+  color: white;
+}
+
+.black-text-name {
+  color: black;
+}
+
+/* .testimony {
+  width: 100%;
+} */
+
+.white-text-small-quote {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  color: white;
+}
+
+.black-text-small-quote {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  color: black;
+}
+
+.white-text-big-quote {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+
+.black-text-big-quote {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
+
+.testimony {
+  padding: 3%;
+  border-radius: 1.5%;
+}
+
+.testimony-1 {
+  background-color: #7541c8;
+  margin-bottom: 3%;
+}
+
+.testimony-2 {
+  background-color: #3a475c;
+  margin-bottom: 3%;
+}
+
+.testimony-4 {
+  background-color: #19212e;
+  margin-bottom: 3%;
+}
+
+.testimony-2 img,
+.testimony-3 img,
+.testimony-4 img,
+.testimony-5 img {
+  border-radius: 50%;
+  border: 3px solid #272c36;
+}
+
+.testimony-3,
+.testimony-5 {
+  background-color: white;
+  margin-bottom: 3%;
+}
+
+@media (min-width: 500px) {
+  .container {
+    display: flex;
+  }
+
+  .testimony-5 {
+    margin-left: 3%;
+    flex: 1 0 25%;
+  }
+
+  .testimony-1,
+  .testimony-4 {
+    flex: 1 0 65%;
+  }
+
+  .testimony-2,
+  .testimony-4 {
+    margin-left: 3%;
+  }
+
+  .first-row {
+    display: flex;
+  }
+
+  .second-row {
+    display: flex;
+  }
+}
